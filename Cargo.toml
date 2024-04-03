@@ -1,0 +1,19 @@
+[package]
+name = "delog-panic"
+version = "0.1.0"
+edition = "2021"
+authors = ["Nitrokey GmbH"]
+description = "panic, unwrap and expect implementations using delog"
+license = "Apache-2.0 OR MIT"
+repository = "https://github.com/trussed-dev/delog-panic"
+
+[dependencies]
+delog = "0.1.7"
+
+[features]
+log-all = []
+log-none = []
+log-info = []
+log-debug = []
+log-warn = []
+log-error = []
